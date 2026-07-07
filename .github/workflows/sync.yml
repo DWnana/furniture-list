@@ -1,10 +1,9 @@
-# GitHub Actions: 每小时从金山文档同步数据
-name: Sync from KDocs
+name: Sync from Gist
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时整点运行
-  workflow_dispatch:       # 支持手动触发
+    - cron: '*/30 * * * *'  # 每30分钟检查一次
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -12,24 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install openpyxl requests
-
-      - name: Fetch data from KDocs and update JSON
-        env:
-          KDOCS_CLIENT_ID: ${{ secrets.KDOCS_CLIENT_ID }}
-          KDOCS_CLIENT_SECRET: ${{ secrets.KDOCS_CLIENT_SECRET }}
-          KDOCS_FILE_TOKEN: cahOpefqdPr3
-        run: python sync.py
-
-      - name: Commit and push if changed
+      - name: Fetch latest data from Gist
         run: |
-          git config user.name "Auto Sync"
-          git config user.email "sync@bot"
-          git add data.json
-          git diff --staged --quiet || git commit -m "🔄 auto sync $(date +'%Y-%m-%d %H:%M')"
-          git push
+          curl -sL "https://gist.githubusercontent.com/DWnana/4c7d8f6a11b47b5645cae1351235ce07/raw/c388f551b567ea07f53a3044ebd7ad106170ab9b/furniture-data.json" -o data.json
+          if git diff --quiet data.json; then
+            echo "No changes"
+          else
+            git config user.name "Auto Sync"
+            git config user.email "sync@bot"
+            git add data.json
+            git commit -m "🔄 sync $(date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
