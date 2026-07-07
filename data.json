@@ -1,0 +1,467 @@
+{
+  "meta": {
+    "title": "家具采购清单",
+    "subtitle": "智能管理 · 实时追踪 · 精明采购",
+    "lastUpdate": "2026-07-07 10:49",
+    "version": 1
+  },
+  "stats": {
+    "totalItems": 11,
+    "originalTotal": 29166.0,
+    "targetTotal": 26300.0,
+    "savedTotal": 2866.0,
+    "actualTotal": 0,
+    "orderedCount": 0,
+    "receivedCount": 0,
+    "pendingCount": 3
+  },
+  "products": [
+    {
+      "id": 1,
+      "category": "冰箱",
+      "name": "容声方糖515",
+      "brand": "容声",
+      "qty": 1,
+      "originalPrice": 4000.0,
+      "targetPrice": 3800.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=901809724044",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 2,
+      "category": "空调",
+      "name": "小米强劲风pro",
+      "brand": "小米",
+      "qty": 1,
+      "originalPrice": 3000.0,
+      "targetPrice": 2800.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=1043278084344",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 3,
+      "category": "空调",
+      "name": "小米巨省电pro",
+      "brand": "小米",
+      "qty": 1,
+      "originalPrice": 2000.0,
+      "targetPrice": 1800.0,
+      "actualPrice": null,
+      "priority": "mid",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=894050027721",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 4,
+      "category": "油烟机+灶",
+      "name": "小米S10 + 猛火灶",
+      "brand": "小米",
+      "qty": 1,
+      "originalPrice": 2700.0,
+      "targetPrice": 2500.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=903279112441",
+      "note": "烟灶套装",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 5,
+      "category": "热水器",
+      "name": "美的小西梅Q5Spro",
+      "brand": "美的",
+      "qty": 1,
+      "originalPrice": 2000.0,
+      "targetPrice": 1800.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=956632017400",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 6,
+      "category": "电视",
+      "name": "小米Smini LED 2026 65寸",
+      "brand": "小米",
+      "qty": 1,
+      "originalPrice": 3500.0,
+      "targetPrice": 3000.0,
+      "actualPrice": null,
+      "priority": "mid",
+      "platform": "淘宝",
+      "purchased": false,
+      "received": false,
+      "link": "https://item.taobao.com/item.htm?id=1046597169827",
+      "note": "备选: 红米X65",
+      "source": "淘宝",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 7,
+      "category": "洗烘套装",
+      "name": "美的明月清风2.0AIR",
+      "brand": "美的",
+      "qty": 1,
+      "originalPrice": 5200.0,
+      "targetPrice": 5100.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=873938485739",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 8,
+      "category": "洗地机",
+      "name": "云鲸S3Island",
+      "brand": "云鲸",
+      "qty": 1,
+      "originalPrice": 1800.0,
+      "targetPrice": 1600.0,
+      "actualPrice": null,
+      "priority": "mid",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://detail.tmall.com/item.htm?id=899913725956",
+      "note": "",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 9,
+      "category": "青空灯",
+      "name": "易来G6pro",
+      "brand": "易来",
+      "qty": 1,
+      "originalPrice": 1800.0,
+      "targetPrice": 1800.0,
+      "actualPrice": null,
+      "priority": "low",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "",
+      "note": "待补链接",
+      "source": "原始清单",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 10,
+      "category": "智能门锁",
+      "name": "小米智能门锁4pro",
+      "brand": "小米",
+      "qty": 1,
+      "originalPrice": 2499.0,
+      "targetPrice": 1500.0,
+      "actualPrice": null,
+      "priority": "high",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://www.mi.com/xiaomi-smartlock-4-pro",
+      "note": "88VIP可低至¥1373",
+      "source": "小米官网/IT之家",
+      "lastUpdate": "2026/07/07"
+    },
+    {
+      "id": 11,
+      "category": "智能窗帘",
+      "name": "杜亚Real5 3米轨套装",
+      "brand": "杜亚",
+      "qty": 1,
+      "originalPrice": 667.0,
+      "targetPrice": 600.0,
+      "actualPrice": null,
+      "priority": "mid",
+      "platform": "天猫",
+      "purchased": false,
+      "received": false,
+      "link": "https://dooya.tmall.com",
+      "note": "含电机+3米轨+包安装",
+      "source": "天猫旗舰店",
+      "lastUpdate": "2026/07/07"
+    }
+  ],
+  "pendingItems": [
+    {
+      "id": 1,
+      "icon": "💡",
+      "category": "智能灯",
+      "description": "全屋智能灯，支持米家联动",
+      "budget": "待定",
+      "candidates": ""
+    },
+    {
+      "id": 2,
+      "icon": "🔆",
+      "category": "筒灯",
+      "description": "嵌入式筒灯，配合吊顶使用",
+      "budget": "待定",
+      "candidates": ""
+    },
+    {
+      "id": 3,
+      "icon": "🎛️",
+      "category": "智能面板",
+      "description": "智能开关面板，支持场景联动",
+      "budget": "待定",
+      "candidates": ""
+    }
+  ],
+  "timeline": {
+    "硬装阶段": [
+      {
+        "name": "油烟机+灶",
+        "note": "需配合橱柜安装",
+        "done": false
+      },
+      {
+        "name": "热水器",
+        "note": "需配合水电改造",
+        "done": false
+      },
+      {
+        "name": "青空灯",
+        "note": "需配合吊顶",
+        "done": false
+      },
+      {
+        "name": "筒灯",
+        "note": "需配合吊顶",
+        "done": false
+      },
+      {
+        "name": "智能面板",
+        "note": "需配合电路改造",
+        "done": false
+      },
+      {
+        "name": "智能窗帘",
+        "note": "需预留窗帘盒",
+        "done": false
+      }
+    ],
+    "软装阶段": [
+      {
+        "name": "冰箱",
+        "note": "",
+        "done": false
+      },
+      {
+        "name": "空调",
+        "note": "建议618/双11购买",
+        "done": false
+      },
+      {
+        "name": "电视",
+        "note": "",
+        "done": false
+      },
+      {
+        "name": "洗烘套装",
+        "note": "",
+        "done": false
+      },
+      {
+        "name": "洗地机",
+        "note": "",
+        "done": false
+      },
+      {
+        "name": "智能门锁",
+        "note": "建议最后安装",
+        "done": false
+      },
+      {
+        "name": "智能灯",
+        "note": "",
+        "done": false
+      }
+    ]
+  },
+  "priceHistory": [
+    {
+      "date": "2026/07/07",
+      "category": "冰箱",
+      "model": "容声方糖515",
+      "price": 3800.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "空调",
+      "model": "小米强劲风pro",
+      "price": 2800.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "空调",
+      "model": "小米巨省电pro",
+      "price": 1800.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "油烟机+灶",
+      "model": "小米S10+猛火灶",
+      "price": 2500.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "热水器",
+      "model": "美的小西梅Q5Spro",
+      "price": 1800.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "电视",
+      "model": "小米Smini LED 65寸",
+      "price": 3000.0,
+      "source": "淘宝",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "洗烘套装",
+      "model": "美的明月清风2.0AIR",
+      "price": 5100.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "洗地机",
+      "model": "云鲸S3Island",
+      "price": 1600.0,
+      "source": "天猫旗舰店",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "青空灯",
+      "model": "易来G6pro",
+      "price": 1800.0,
+      "source": "原始清单",
+      "note": "初始记录"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "智能门锁",
+      "model": "小米智能门锁4pro",
+      "price": 1500.0,
+      "source": "IT之家/小米官网",
+      "note": "88VIP可低至¥1373"
+    },
+    {
+      "date": "2026/07/07",
+      "category": "智能窗帘",
+      "model": "杜亚Real5",
+      "price": 600.0,
+      "source": "天猫旗舰店",
+      "note": "3米轨套装包安装"
+    }
+  ],
+  "suggestions": [
+    {
+      "tag": "price",
+      "tagLabel": "价格优化",
+      "text": "88VIP会员日集中采购（每月8日），可额外节省5-10%"
+    },
+    {
+      "tag": "price",
+      "tagLabel": "价格优化",
+      "text": "关注618/双11/年货节大促，提前加购物车等降价"
+    },
+    {
+      "tag": "price",
+      "tagLabel": "价格优化",
+      "text": "天猫超市卡/购物金充值返现，适合大额采购"
+    },
+    {
+      "tag": "price",
+      "tagLabel": "价格优化",
+      "text": "对比京东自营同款价格，部分品类京东更优"
+    },
+    {
+      "tag": "bundle",
+      "tagLabel": "套装优惠",
+      "text": "全屋智能套装（门锁+窗帘+灯+面板）可能有打包价"
+    },
+    {
+      "tag": "bundle",
+      "tagLabel": "套装优惠",
+      "text": "小米全屋智能方案，多品一起买可能有折扣"
+    },
+    {
+      "tag": "logistics",
+      "tagLabel": "物流规划",
+      "text": "大件家电建议统一配送，减少物流费和等待时间"
+    },
+    {
+      "tag": "logistics",
+      "tagLabel": "物流规划",
+      "text": "安装类商品（烟机、门锁、窗帘）提前预约安装时间"
+    },
+    {
+      "tag": "warranty",
+      "tagLabel": "售后保障",
+      "text": "大家电建议购买延保服务（特别是电视、洗衣机）"
+    },
+    {
+      "tag": "warranty",
+      "tagLabel": "售后保障",
+      "text": "保留所有电子发票和保修卡，拍照备份"
+    },
+    {
+      "tag": "eco",
+      "tagLabel": "品牌生态",
+      "text": "小米生态链产品（空调、门锁、电视）可统一米家APP管理"
+    },
+    {
+      "tag": "eco",
+      "tagLabel": "品牌生态",
+      "text": "美的系产品（洗烘、热水器）可考虑美的美居APP联动"
+    }
+  ]
+}
